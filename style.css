@@ -589,4 +589,38 @@ pre,code{
        padding: 10px;
        background-color: rgba(0, 0, 0, 0.1);
    }
+
+   .navbar .flex li{
+       font-size: 15px;
+   }
+
+   .showcase p{
+       font-size: 15px;
+       margin: 20px 15px;
+   }
+
+   .showcase-form{
+    width: 350px;
+}
+}
+
+/* Small size mobiles */
+
+@media (max-width:350px){
+    .navbar .flex li{
+        font-size: 13px;
+    }
+
+    .showcase h1{
+        font-size: 36px;
+    }
+
+    .showcase-form{
+        width: 300px;
+    }
+
+    .stats .stats-heading{
+        font-size: 20px;
+    }
+    
 }
